@@ -59,6 +59,41 @@ body {
   animation-iteration-count: infinite;
 }
 
+.acknowledgement {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: calc(100vw - 2rem);
+  font-size: 1rem;
+  padding: 1rem;
+  overflow: visible;
+}
+
+.timestamp::after, .acknowledgement::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -4;
+  filter: blur(0.6rem);
+  background: var(--teal);
+  animation-name: background;
+  animation-duration: 120s;
+  animation-iteration-count: infinite;
+  /* background: whitesmoke; */
+}
+
+.timestamp::after {
+  width: calc(100% + 2rem);
+  height: calc(100% + 1rem);
+  transform: translate(-1rem, -0.5rem);
+}
+
+.acknowledgement::after {
+  width: calc(100% + 2rem);
+  height: calc(100% + 8rem);
+}
+
 
 
 h1, h2, h3, h4, h5 {
@@ -132,57 +167,7 @@ h3 {
   text-align: center;
 }
 
-.acknowledgement {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: calc(100vw - 2rem);
-  font-size: 1rem;
-  padding: 1rem;
-  overflow: visible;
-}
 
-/* .acknowledgement-bg, .timestamp-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 120%;
-  z-index: -4;
-  filter: blur(0.5rem);
-  background: var(--teal);
-  animation-name: background;
-  animation-duration: 120s;
-  animation-iteration-count: infinite;
-} */
-
-.acknowledgement-bg {
-  width: 100%;
-}
-
-.timestamp::after, .acknowledgement::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -4;
-  filter: blur(0.6rem);
-  background: var(--teal);
-  animation-name: background;
-  animation-duration: 120s;
-  animation-iteration-count: infinite;
-  /* background: whitesmoke; */
-}
-
-.timestamp::after {
-  width: calc(100% + 2rem);
-  height: calc(100% + 1rem);
-  transform: translate(-1rem, -0.5rem);
-}
-
-.acknowledgement::after {
-  width: calc(100% + 2rem);
-  height: calc(100% + 8rem);
-}
 
 footer {
   font-family: 'Authentic Sans', sans-serif;
