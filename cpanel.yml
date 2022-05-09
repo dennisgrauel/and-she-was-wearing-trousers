@@ -2,4 +2,13 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/andshewa/public_html/
- - /bin/cp -r $DEPLOYPATH
+ - /bin/cp -R assets $DEPLOYPATH
+ - /bin/cp -R content $DEPLOYPATH
+ - /bin/cp -R kirby $DEPLOYPATH
+ - /bin/cp -R media $DEPLOYPATH
+ - /bin/cp -R site $DEPLOYPATH
+ - /bin/cp -R .editorconfig $DEPLOYPATH
+ - /bin/cp -R .gitattributes $DEPLOYPATH
+ - /bin/cp -R .htaccess $DEPLOYPATH
+ - /bin/cp -R composer.json $DEPLOYPATH
+ - /bin/cp -R index.php $DEPLOYPATH
