@@ -1,2 +1,43 @@
-preset: pages
-unlisted: true
+title: Site
+
+columns:
+  left:
+    width: 1/3
+    sections:
+      drafts:
+        type: pages
+        headline: Drafts
+        status: draft
+        templates:
+          - artist
+          - event
+      unlisted:
+        type: pages
+        headline: Unlisted
+        status: unlisted
+
+  middle:
+    width: 1/3
+    sections:
+      artists:
+        type: pages
+        headline: Artists – Published
+        status: listed
+        templates:
+          - artist
+        image:
+          query: page.pattern.toFile
+          back: white
+        layout: cardlets
+  right:
+    width: 1/3
+    sections:
+      events:
+        type: pages
+        headline: Events – Published
+        status: listed
+        templates:
+          - event
+        info: "{{page.time}}"
+        image: icon
+        layout: list

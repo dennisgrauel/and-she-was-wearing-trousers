@@ -1,0 +1,11 @@
+title: Event
+fields:
+  time:
+    label: Event Time
+    type: text
+  venue:
+    type: text
+  description:
+    type: blocks
+    fieldsets:
+      - text

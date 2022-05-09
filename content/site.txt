@@ -1,1 +1,25 @@
-Title: Site Title
+Title: And she was wearing trousers
+
+----
+
+Subtitle: a call to our heroines
+
+----
+
+Acknowledgement: We acknowledge that our stories, dialogues and experiences take place on the lands of the Wurundjeri Woiwurrung and Boonwurrung peoples of the Kulin Nation, and acknowledge that sovereignty was never ceded; we benefit and live upon stolen lands.
+
+----
+
+About: [{"content":{"text":"<p>Archives that speak of copper wire, liberation, teachers, linguists and queens, of women who we should know but don\u2019t know, are constructed through colonised frames and histories. The title, translated from lyrics of Dorothy Masuka's song \u2018Nolishwa,\u2019 <em>And she was wearing trousers<\/em> reimagines the possibilities of African heroines in Southern African history through a series of exchanges of text and dialogue between Southern African artists, between those living on the continent and those from the diaspora. How do we hear of them? What do we learn from them?<\/p>"},"id":"ea53f6ad-b292-46a5-8131-cae0b94d6dd2","isHidden":false,"type":"text"},{"content":{"text":"<p>Through new commissions and existing work the artists explore women who are framed as contentious, yet their contributions to society are influential, equivocal and are important African women's voices to platform, share and learn from. The power of interpretation and nuance creates a space for tension, discovery and continuity. They serve as complex and dynamic activists and artists in Southern African history for both past and present, and allow us to creatively explore our relationships with these women, and the proximity we share with them.<\/p>"},"id":"47ab4df0-8ee7-47ee-a418-d8e9c9636ca1","isHidden":false,"type":"text"}]
+
+----
+
+Byline: [{"content":{"text":"<p>An exhibition curated by<\/p>"},"id":"39be2c0d-68c9-4c41-b89f-b0b721c90eea","isHidden":false,"type":"text"},{"content":{"text":"<p>Roberta Joy Rich and Naomi Velaphi<\/p>"},"id":"e996fd6e-056e-472d-b5a6-1bb783afd58b","isHidden":false,"type":"text"},{"content":{"text":"<p>30 June\u20136 August 2022<\/p>"},"id":"e7f81c3b-5ac6-4738-b87d-b9efc6ceabd4","isHidden":false,"type":"text"},{"content":{"text":"<p>Arts House, Melbourne<\/p>"},"id":"7efcf954-763d-4a7a-82e0-e7dcb5153b49","isHidden":false,"type":"text"}]
+
+----
+
+Footer: [{"content":{"text":"<p>This project is presented by Arts House with support from City of Melbourne, the Australia Council for the Arts, its arts funding and advisory body, and by the Victorian Government through Creative Victoria.<\/p>"},"id":"4d3484b8-1a76-46a5-990e-8d21928f6d00","isHidden":false,"type":"text"}]
+
+----
+
+Contributors: 

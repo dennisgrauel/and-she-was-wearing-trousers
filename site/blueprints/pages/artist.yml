@@ -1,0 +1,21 @@
+title: Artist
+
+columns:
+
+  left:
+    width: 2/3
+    sections:
+      fields:
+        fields:
+          text:
+            type: blocks
+
+  right:
+    width: 1/3
+    fields:
+      files:
+        type: files
+      pattern:
+        type: multiselect
+        options: query
+        query: page.images

@@ -1,0 +1,35 @@
+Title: Rara Zulu
+
+----
+
+Subtitle: 
+
+----
+
+Acknowledgement: 
+
+----
+
+About: 
+
+----
+
+Byline: 
+
+----
+
+Footer: 
+
+----
+
+Files:
+
+- rara-zumu.svg
+
+----
+
+Pattern: rara-zulu/rara-zumu.svg
+
+----
+
+Text: 

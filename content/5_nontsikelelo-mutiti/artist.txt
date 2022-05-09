@@ -1,0 +1,35 @@
+Title: Nontsikelelo Mutiti
+
+----
+
+Subtitle: 
+
+----
+
+Acknowledgement: 
+
+----
+
+About: 
+
+----
+
+Byline: 
+
+----
+
+Footer: 
+
+----
+
+Files:
+
+- nontsikelelo-mutiti.svg
+
+----
+
+Pattern: nontsikelelo-mutiti/nontsikelelo-mutiti.svg
+
+----
+
+Text: 

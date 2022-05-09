@@ -1,0 +1,27 @@
+title: Home
+
+columns:
+
+  left:
+    width: 2/3
+    sections:
+      fields:
+        fields:
+          subtitle:
+            type: text
+          acknowledgement:
+            type: textarea
+          about:
+            type: blocks
+            fieldsets:
+              - text
+          byline:
+            type: textarea
+          footer:
+            type: textarea
+  right:
+    width: 1/3
+    sections:
+      files:
+        type: files
+        label: Sponsor Logos

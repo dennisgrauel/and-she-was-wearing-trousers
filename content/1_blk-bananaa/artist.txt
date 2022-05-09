@@ -1,0 +1,35 @@
+Title: blk bananaa
+
+----
+
+Subtitle: 
+
+----
+
+Acknowledgement: 
+
+----
+
+About: 
+
+----
+
+Byline: 
+
+----
+
+Footer: 
+
+----
+
+Files:
+
+- blk-bananaa-1.svg
+
+----
+
+Pattern: blk-bananaa/blk-bananaa-1.svg
+
+----
+
+Text: 

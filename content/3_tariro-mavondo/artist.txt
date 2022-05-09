@@ -1,0 +1,35 @@
+Title: Tariro Mavondo
+
+----
+
+Subtitle: 
+
+----
+
+Acknowledgement: 
+
+----
+
+About: 
+
+----
+
+Byline: 
+
+----
+
+Footer: 
+
+----
+
+Files:
+
+- tariro-mavondo-1.svg
+
+----
+
+Pattern: tariro-mavondo/tariro-mavondo-1.svg
+
+----
+
+Text: 
