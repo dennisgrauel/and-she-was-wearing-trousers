@@ -1,7 +1,10 @@
 <?php
 
 return [
-  'debug'  => true
+    'debug'  => true
+];
+
+return [
   'panel' =>[
     'install' => true
   ]
