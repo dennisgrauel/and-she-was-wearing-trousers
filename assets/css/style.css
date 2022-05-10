@@ -81,7 +81,7 @@
     -moz-box-shadow: 0 0 0.6rem 0.6rem var(--grey);
   }
   84% {
-    background: var(--teal);
+    background: var(--blue);
     box-shadow: 0 0 0.6rem 0.6rem var(--blue);
     -webkit-box-shadow: 0 0 0.6rem 0.6rem var(--blue);
     -moz-box-shadow: 0 0 0.6rem 0.6rem var(--blue);
@@ -177,7 +177,7 @@ header {
 }
 
 .landing {
-  min-height: calc(100vh - 2rem);
+  min-height: calc(100vh - 5rem);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
