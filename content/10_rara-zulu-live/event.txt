@@ -2,11 +2,15 @@ Title: Rara Zulu Live
 
 ----
 
-Time: 23 July,  7:30pm, AEST
+Time: [{"content":{"text":"<p>23 July, 7:30pm, AEST<\/p>"},"id":"f9ee956f-4440-4036-86e6-52b2d410d385","isHidden":false,"type":"text"}]
 
 ----
 
 Venue: Online
+
+----
+
+Booking: 
 
 ----
 
