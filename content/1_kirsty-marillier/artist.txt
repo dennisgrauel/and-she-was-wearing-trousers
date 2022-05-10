@@ -1,4 +1,4 @@
-Title: Rara Zulu
+Title: Kirsty Marillier
 
 ----
 
@@ -8,11 +8,11 @@ Text:
 
 Files:
 
-- rara-zulu-2.svg
+- kirsty-marillier-3.svg
 
 ----
 
-Pattern: rara-zulu/rara-zulu-2.svg
+Pattern: kirsty-marillier/kirsty-marillier-3.svg
 
 ----
 

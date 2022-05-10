@@ -2,6 +2,20 @@ Title: Jabu Nadia Newman
 
 ----
 
+Text: 
+
+----
+
+Files:
+
+- jabu-nadia-newman-2.svg
+
+----
+
+Pattern: jabu-nadia-newman/jabu-nadia-newman-2.svg
+
+----
+
 Subtitle: 
 
 ----
@@ -19,17 +33,3 @@ Byline:
 ----
 
 Footer: 
-
-----
-
-Files:
-
-- jabu-nadia-1.svg
-
-----
-
-Pattern: jabu-nadia-newman/jabu-nadia-1.svg
-
-----
-
-Text: 

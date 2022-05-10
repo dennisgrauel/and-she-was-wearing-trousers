@@ -2,6 +2,20 @@ Title: Nontsikelelo Mutiti
 
 ----
 
+Text: 
+
+----
+
+Files:
+
+- nontsikelelo-mutiti-2.svg
+
+----
+
+Pattern: nontsikelelo-mutiti/nontsikelelo-mutiti-2.svg
+
+----
+
 Subtitle: 
 
 ----
@@ -19,17 +33,3 @@ Byline:
 ----
 
 Footer: 
-
-----
-
-Files:
-
-- nontsikelelo-mutiti.svg
-
-----
-
-Pattern: nontsikelelo-mutiti/nontsikelelo-mutiti.svg
-
-----
-
-Text: 

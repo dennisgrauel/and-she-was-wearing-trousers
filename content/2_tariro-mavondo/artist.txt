@@ -1,4 +1,4 @@
-Title: Rara Zulu
+Title: Tariro Mavondo
 
 ----
 
@@ -8,11 +8,11 @@ Text:
 
 Files:
 
-- rara-zulu-2.svg
+- tariro-mavondo-2.svg
 
 ----
 
-Pattern: rara-zulu/rara-zulu-2.svg
+Pattern: tariro-mavondo/tariro-mavondo-2.svg
 
 ----
 

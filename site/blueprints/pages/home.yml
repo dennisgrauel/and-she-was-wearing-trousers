@@ -11,6 +11,12 @@ columns:
             type: text
           acknowledgement:
             type: textarea
+          aest:
+            label: AEST timezone label
+            type: text
+          sast:
+            label: SAST timezone label
+            type: text
           about:
             type: blocks
             fieldsets:

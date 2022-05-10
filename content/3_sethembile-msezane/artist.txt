@@ -1,4 +1,4 @@
-Title: Rara Zulu
+Title: Sethembile Msezane
 
 ----
 
@@ -8,11 +8,11 @@ Text:
 
 Files:
 
-- rara-zulu-2.svg
+- sethembile-msezane-2.svg
 
 ----
 
-Pattern: rara-zulu/rara-zulu-2.svg
+Pattern: sethembile-msezane/sethembile-msezane-2.svg
 
 ----
 

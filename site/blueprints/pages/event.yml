@@ -2,9 +2,14 @@ title: Event
 fields:
   time:
     label: Event Time
-    type: text
+    type: blocks
+    fieldsets:
+      - text
   venue:
     type: text
+  booking:
+    label: Booking Link
+    type: url
   description:
     type: blocks
     fieldsets:

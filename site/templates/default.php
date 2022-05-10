@@ -58,13 +58,19 @@
         <?php foreach ($events as $event): ?>
           <?php if ($event->intendedTemplate() == 'event'): ?>
             <div class="event-row">
-              <div class="event-name">
+              <div class="event-item">
                 <?= $event->title() ?>
               </div>
-              <div class="event-details">
-                <span class="event-time"><?= $event->time() ?></span>
+              <div class="event-item">
+                <span class="event-time"><?= $event->time()->toBlocks() ?></span>
                 <span class="event-location"><?= $event->venue() ?></span>
               </div>
+              <div class="event-item">
+                <?php if ($event->booking()->isNotEmpty()): ?>
+                  <a href="<?= $event->booking() ?>">Sign up</a>
+                <?php endif ?>
+              </div>
+
             </div>
           <?php endif ?>
         <?php endforeach ?>

@@ -10,6 +10,14 @@ Acknowledgement: We acknowledge that our stories, dialogues and experiences take
 
 ----
 
+Aest: Kulin Nation
+
+----
+
+Sast: Southern Africa
+
+----
+
 About: [{"content":{"text":"<p>Archives that speak of copper wire, liberation, teachers, linguists and queens, of women who we should know but don\u2019t know, are constructed through colonised frames and histories. The title, translated from lyrics of Dorothy Masuka\u2019s song \u2018Nolishwa,\u2019 <em>And she was wearing trousers<\/em> reimagines the possibilities of African heroines in Southern African history through a series of exchanges of text and dialogue between Southern African artists, between those living on the continent and those from the diaspora. How do we hear of them? What do we learn from them?<\/p>"},"id":"d860d9bb-0222-4023-bca0-79244031215d","isHidden":false,"type":"text"},{"content":{"text":"<p>Through new commissions and existing work the artists explore women who are framed as contentious, yet their contributions to society are influential, equivocal and are important African women\u2019s voices to platform, share and learn from. The power of interpretation and nuance creates a space for tension, discovery and continuity. They serve as complex and dynamic activists and artists in Southern African history for both past and present, and allow us to creatively explore our relationships with these women, and the proximity we share with them.<\/p>"},"id":"760af9a1-398c-4264-9115-1a4a53cd23f3","isHidden":false,"type":"text"}]
 
 ----

@@ -5,7 +5,7 @@
 
 <header>
   <div class="timestamp">
-    <?= $aest ?> Kulin Nation — <?= $sast ?> South Africa
+    <?= $aest ?> <?= $site->page('Home')->aest() ?> — <?= $sast ?> <?= $site->page('Home')->sast() ?>
   </div>
 
 </header>

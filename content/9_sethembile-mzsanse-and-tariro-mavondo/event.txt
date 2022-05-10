@@ -1,9 +1,17 @@
-Title: Sethembile Mzsanse and Tariro Mavondo
+Title: Sethembile Msezane and Tariro Mavondo
 
 ----
 
-Time: 20 July,  6:30pm, AEST
+Time: [{"content":{"text":"<p>20 July,  6:30pm, AEST<\/p>"},"id":"489c4719-7cd0-4e57-8855-b873af29a2ce","isHidden":false,"type":"text"}]
 
 ----
 
 Venue: Online
+
+----
+
+Booking: 
+
+----
+
+Description: 
