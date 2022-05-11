@@ -24,11 +24,11 @@
 
 :root {
   --orange: #FF6C2F;
-  --teal: #00838A;
-  --pink: #FF48B0;
-  --green: #00A95C;
+  --teal: #00AAB3;
+  --pink: #FF52B4;
+  --green: #00AD5F;
   --yellow: #FFE800;
-  --blue: #0078BF;
+  --blue: #009BF5;
   --grey: #C4C4C4;
 }
 
@@ -301,6 +301,7 @@ a:focus {
   transform: translate(-50%, -50%);
   display: none;
   width: 80vmin;
+  z-index: -100;
 }
 
 .artist:hover,

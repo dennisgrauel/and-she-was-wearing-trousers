@@ -25,7 +25,7 @@
               <?php if ($artist->intendedTemplate() == 'artist'): ?>
                 <div>
                   <h2 class="artist"><?= $artist->title() ?></h2>
-                  <img src="<?= $artist->pattern() ?>" class="pattern">
+                  <img class="pattern" src="<?= $artist->pattern() ?>">
                 </div>
               <?php endif ?>
             <?php endforeach ?>
@@ -67,7 +67,7 @@
               </div>
               <div class="event-item">
                 <?php if ($event->booking()->isNotEmpty()): ?>
-                  <a href="<?= $event->booking() ?>">Sign up</a>
+                  <a href="<?= $event->booking() ?>">Book Here</a>
                 <?php endif ?>
               </div>
 
