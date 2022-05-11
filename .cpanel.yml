@@ -3,7 +3,6 @@ deployment:
  tasks:
  - export DEPLOYPATH=/home/andshewa/public_html/
  - /bin/cp -R assets $DEPLOYPATH
- - /bin/cp -R content $DEPLOYPATH
  - /bin/cp -R kirby $DEPLOYPATH
  - /bin/cp -R media $DEPLOYPATH
  - /bin/cp -R site $DEPLOYPATH
