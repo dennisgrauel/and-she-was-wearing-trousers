@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   <body>
-    <?php snippet('header') ?>
     <div class="landing">
       <div class="landing-content">
         <div class="">
@@ -25,13 +24,14 @@
               <?php if ($artist->intendedTemplate() == 'artist'): ?>
                 <div>
                   <h2 class="artist"><?= $artist->title() ?></h2>
-                  <img class="pattern" src="<?= $artist->pattern() ?>">
+                  <?php if ($artist->pattern()->isNotEmpty()): ?>
+                    <img class="pattern" src="<?= $artist->pattern() ?>">
+                  <?php endif ?>
                 </div>
               <?php endif ?>
             <?php endforeach ?>
           </div>
         </div>
-
 
         <div class="byline">
           <?php $bylines = $site->page('Home')->byline()->kti() ?>
@@ -44,8 +44,6 @@
         <?= $site->page('Home')->acknowledgement()->kti() ?>
       </div>
     </div>
-
-
 
     <div class="about">
       <?= $site->page('Home')->about()->toBlocks() ?>
@@ -67,7 +65,7 @@
               </div>
               <div class="event-item">
                 <?php if ($event->booking()->isNotEmpty()): ?>
-                  <a href="<?= $event->booking() ?>">Book Here</a>
+                  <a href="<?= $event->booking() ?>" target="_blank">Book Here</a>
                 <?php endif ?>
               </div>
 

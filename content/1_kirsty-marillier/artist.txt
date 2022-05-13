@@ -12,7 +12,7 @@ Files:
 
 ----
 
-Pattern: kirsty-marillier/kirsty-marillier-3.svg
+Pattern: 
 
 ----
 
