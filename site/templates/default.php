@@ -45,10 +45,10 @@
       <div class="pattern-container">
 
         <?php $triangle = $site->page('Home')->file('triangle.svg')->url() ?>
-        <img src="<?= $triangle ?>" alt="" class="triangle draggable" id="tri-1">
-        <img src="<?= $triangle ?>" alt="" class="triangle draggable" id="tri-2">
-        <img src="<?= $triangle ?>" alt="" class="triangle draggable" id="tri-3">
-        <img src="<?= $triangle ?>" alt="" class="triangle draggable" id="tri-4">
+        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-1">
+        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-2">
+        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-3">
+        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-4">
       </div>
 
       <div class="acknowledgement">

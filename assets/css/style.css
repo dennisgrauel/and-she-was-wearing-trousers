@@ -185,8 +185,6 @@ header {
   position: absolute;
   inset: 0;
   z-index: 100;
-  touch-action: none;
-  user-select: none;
   overflow: hidden;
 }
 
@@ -196,6 +194,12 @@ header {
   top: 0;
   left: 0;
   transform-origin: center;
+  touch-action: none;
+  user-select: none;
+}
+
+.triangle:hover svg {
+  fill: white;
 }
 
 #tri-1 {
