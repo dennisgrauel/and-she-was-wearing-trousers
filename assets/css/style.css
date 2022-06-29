@@ -181,6 +181,44 @@ header {
   margin-bottom: 3rem;
 }
 
+.pattern-container {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  touch-action: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.triangle {
+  width: 30vmin;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+}
+
+#tri-1 {
+  transform: rotate(-50deg);
+  margin-left: 35vw;
+  margin-top: 20vh;
+}
+#tri-2 {
+  transform: rotate(50deg);
+  margin-left: 68vw;
+  margin-top: 36vh;
+}
+#tri-3 {
+  transform: rotate(-130deg);
+  margin-left: 37vw;
+  margin-top: 65vh;
+}
+#tri-4 {
+  transform: rotate(130deg);
+  margin-left: 75vw;
+  margin-top: 70vh;
+}
+
 h1 {
   font-size: 1.8rem;
 
@@ -245,9 +283,10 @@ p > em {
 }
 
 a {
+  font-family: inherit;
   font-size: inherit;
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover,

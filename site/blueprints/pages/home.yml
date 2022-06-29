@@ -28,6 +28,6 @@ columns:
   right:
     width: 1/3
     sections:
-      files:
+      logos:
         type: files
-        label: Sponsor Logos
+        label: files
