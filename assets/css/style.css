@@ -156,6 +156,7 @@
 body {
   margin: 1.2rem;
   background-color: var(--manilla);
+  overflow-x: hidden;
 }
 
 body.home {
@@ -234,6 +235,7 @@ nav > a {
 .landing {
   min-height: calc(100vh - 5rem);
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 4rem;
