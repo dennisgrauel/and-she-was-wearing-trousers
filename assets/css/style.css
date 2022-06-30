@@ -30,6 +30,57 @@
   --yellow: #FFE800;
   --blue: #009BF5;
   --grey: #C4C4C4;
+
+  --orangetint: #FFF5F1;
+  --tealtint: #00AAB3;
+  --pinktint: #FF52B4;
+  --greentint: #00AD5F;
+  --yellowtint: #FFFBD8;
+  --bluetint: #F4FEFF;
+  --greytint: #C4C4C4;
+}
+
+[data-background-color="teal"] {
+  background: var(--teal);
+}
+[data-background-color="grey"] {
+  background: var(--grey);
+}
+[data-background-color="green"] {
+  background: var(--green);
+}
+[data-background-color="pink"] {
+  background: var(--pink);
+}
+[data-background-color="orange"] {
+  background: var(--orange);
+}
+[data-background-color="blue"] {
+  background: var(--blue);
+}
+[data-background-color="yellow"] {
+  background: var(--yellow);
+}
+[data-background-color="tealtint"] {
+  background: var(--tealtint);
+}
+[data-background-color="greytint"] {
+  background: var(--greytint);
+}
+[data-background-color="greentint"] {
+  background: var(--greentint);
+}
+[data-background-color="pinktint"] {
+  background: var(--pinktint);
+}
+[data-background-color="orangetint"] {
+  background: var(--orangetint);
+}
+[data-background-color="bluetint"] {
+  background: var(--bluetint);
+}
+[data-background-color="yellowtint"] {
+  background: var(--yellowtint);
 }
 
 @keyframes background {
@@ -103,7 +154,11 @@
 }
 
 body {
-  margin: 1rem;
+  margin: 1.2rem;
+  background-color: var(--manilla);
+}
+
+body.home {
   background-color: var(--teal);
   animation-name: background;
   animation-duration: 120s;
@@ -157,6 +212,19 @@ header {
   width: calc(100vw - 2rem);
 }
 
+nav {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-family: 'Authentic Sans', sans-serif;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+nav > a {
+  text-decoration: none;
+}
+
 .title {
   margin: 0 auto 2rem auto;
   text-align: center;
@@ -168,7 +236,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 4rem;}
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
 
 .landing-content {
   display: flex;
@@ -184,8 +254,7 @@ header {
 .pattern-container {
   position: absolute;
   inset: 0;
-  z-index: 100;
-  overflow: hidden;
+  z-index: 0;
 }
 
 .triangle {
@@ -225,7 +294,6 @@ header {
 
 h1 {
   font-size: 1.8rem;
-
 }
 
 h2 {
@@ -247,8 +315,6 @@ h3 {
   margin-right: auto;
   text-align: center;
 }
-
-
 
 footer {
   font-family: 'Authentic Sans', sans-serif;
@@ -274,7 +340,7 @@ footer {
 p {
   font-family: inherit;
   font-size: inherit;
-  line-height: 1.75rem;
+  line-height: 1.8rem;
   letter-spacing: 0.02rem;
 }
 
@@ -291,6 +357,10 @@ a {
   font-size: inherit;
   color: inherit;
   text-decoration: underline;
+}
+
+.title > a {
+  text-decoration: none;
 }
 
 a:hover,
@@ -361,6 +431,67 @@ a:focus {
   display: block;
 }
 
+main {
+  margin-bottom: 12rem;
+  max-width: 52rem;
+}
+
+.work-title {
+  font-family: 'Latitude', serif;
+  font-size: 2.5rem;
+  margin-left: 5rem;
+  margin-bottom: 4rem;
+}
+
+.work-body {
+  font-family: 'Latitude', serif;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.work-intro {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+
+.work-bio {
+  font-family: 'Authentic Sans', sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 5rem;
+}
+
+blockquote {
+  font-family: 'Director Mono', monospace;
+  text-align: center;
+  transform: translateX(6em);
+  margin: 2em;
+}
+
+figure {
+  width: 100%;
+  margin: 2rem;
+  transform: translateX(6em);
+}
+
+figure > img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-family: 'Director Mono', monospace;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+ol {
+  padding-left: 5rem;
+
+}
+
+.notes li {
+  font-size: 0.9rem;
+}
+
 @media only screen and (max-width: 1400px){
   :root {
     font-size: 14px;
@@ -385,6 +516,10 @@ a:focus {
     margin: 4rem 0 2rem 0;
     padding: 0;
     z-index: -200;
+  }
+  blockquote, figure {
+    transform: translateX(0);
+    padding-left: 5rem;
   }
 }
 

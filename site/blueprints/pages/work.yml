@@ -1,0 +1,59 @@
+title: Work
+
+columns:
+  left:
+    width: 3/4
+    fields:
+      contributor:
+        type: text
+        label: Contributor Name
+      intro:
+        type: textarea
+        label: Intro Paragraph
+      body:
+        type: blocks
+        label: Body Content
+      notes:
+        type: list
+        label: Footnotes/References
+        default: numbered
+      bio:
+        type: blocks
+        label: Contributor Bio
+        fieldsets:
+          - text
+          - image
+
+  right:
+    width: 1/4
+    fields:
+      color:
+        type: select
+        label: Page background color
+        options:
+          teal: Teal
+          grey: Grey
+          green: Green
+          pink: Pink
+          orange: Orange
+          blue: Blue
+          yellow: Yellow
+          tealtint: Light Teal
+          greytint: Light Grey
+          greentint: Light Green
+          pinktint: Light Pink
+          orangetint: Light Orange
+          bluetint: Light Blue
+          yellowtint: Light Yellow
+      images:
+        type: files
+        label: Images
+        uploads:
+          template: image
+      info:
+        type: info
+        label: Guide
+        text: |
+          For pull quotes, use the ‘Quote’ block (leave the quote attribution line blank)
+
+          When including footnotes, the list type can be set to ‘numbered’.

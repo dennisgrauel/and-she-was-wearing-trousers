@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
   </head>
-  <body>
+  <body class="home">
     <div class="landing">
+
+      <?php $triangle = $site->page('Home')->file('triangle.svg')->url() ?>
+      <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-1">
+      <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-2">
+      <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-3">
+      <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-4">
+
       <div class="landing-content">
         <div class="">
-          <div class="title">
-            <h1>
-              <span>And she was</span><br>
-              <span>wearing trousers:</span><br>
-              <span id="subtitle"><?= $page->subtitle() ?></span>
-            </h1>
-          </div>
+          <?= snippet('nav') ?>
+          <?= snippet('title') ?>
 
           <div class="artists">
             <?php $artists = $site->children()->listed() ?>
@@ -42,18 +44,10 @@
         </div>
       </div>
 
-      <div class="pattern-container">
-
-        <?php $triangle = $site->page('Home')->file('triangle.svg')->url() ?>
-        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-1">
-        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-2">
-        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-3">
-        <img src="<?= $triangle ?>" alt="" class="triangle" id="tri-4">
-      </div>
-
       <div class="acknowledgement">
         <?= $site->page('Home')->acknowledgement()->kti() ?>
       </div>
+
     </div>
 
     <div class="about">

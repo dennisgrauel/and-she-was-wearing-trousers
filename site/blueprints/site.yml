@@ -11,6 +11,7 @@ columns:
         templates:
           - artist
           - event
+          - work
       unlisted:
         type: pages
         headline: Unlisted
@@ -40,4 +41,11 @@ columns:
           - event
         info: "{{page.time}}"
         image: icon
+        layout: list
+      work:
+        type: pages
+        headline: Work/Writing
+        status: listed
+        templates:
+          - work
         layout: list
