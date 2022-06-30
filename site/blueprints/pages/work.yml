@@ -16,7 +16,6 @@ columns:
       notes:
         type: list
         label: Footnotes/References
-        default: numbered
       bio:
         type: blocks
         label: Contributor Bio
