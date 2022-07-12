@@ -22,15 +22,14 @@
           <?= snippet('title') ?>
 
           <div class="artists">
-            <?php $artists = $site->children()->listed() ?>
+            <?php $artists = $site->children()->published() ?>
+
             <?php foreach ($artists as $artist): ?>
               <?php if ($artist->intendedTemplate() == 'artist'): ?>
-                <div>
+                <?php $url = ($artist->isListed()) ? $artist->url() : "javascript:void(0)" ?>
+                <a href="<?= $url ?>">
                   <h2 class="artist"><?= $artist->title() ?></h2>
-                  <?php if ($artist->pattern()->isNotEmpty()): ?>
-                    <img class="pattern" src="<?= $artist->pattern() ?>">
-                  <?php endif ?>
-                </div>
+                </a>
               <?php endif ?>
             <?php endforeach ?>
           </div>
@@ -45,18 +44,23 @@
       </div>
 
       <div class="acknowledgement">
-        <?= $site->page('Home')->acknowledgement()->kti() ?>
+        <?= page('Home')->acknowledgement()->kti() ?>
       </div>
 
     </div>
 
     <div class="about">
-      <?= $site->page('Home')->about()->toBlocks() ?>
+      <?php $aboutlimit = page('Home')->aboutlimit()->toInt() ?>
+      <?= page('Home')->about()->toBlocks()->limit($aboutlimit) ?>
 
       <?php $catalogue = $site->page('Home')->file('and-she-was-wearing-trousers-a-call-to-our-heroines-catalogue.pdf')->url() ?>
-      <br>
+      <a id="about-cont" href="javascript:void(0)">(More info)</a>
+    </div>
+    <br>
+    <div class="about">
       <p>A PDF of the exhibition catalogue can be downloaded <a href="<?= $catalogue ?>" target="_blank">here</a>.</p>
     </div>
+
 
     <div class="events">
       <h2>Events</h2>
@@ -86,13 +90,14 @@
 
     <footer>
       <?= $site->page('Home')->footer()->kti() ?><br>
-      <?php $sponsors = $site->page('Home')->files()->sorted()->limit(2) ?>
+      <?php $sponsors = page('Home')->files()->sorted()->limit(2) ?>
       <?php foreach ($sponsors as $sponsor): ?>
         <img class="sponsor-logo" src="<?= $sponsor->url() ?>" alt="">
       <?php endforeach ?>
     </footer>
 
     <?= js('assets/js/patterns.js') ?>
+    <?= js('assets/js/nav.js') ?>
 
   </body>
 </html>

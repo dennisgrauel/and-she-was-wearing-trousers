@@ -38,6 +38,10 @@
   --yellowtint: #FFFBD8;
   --bluetint: #F4FEFF;
   --greytint: #C4C4C4;
+
+  --text-panel-width: 25rem;
+  --about-panel-width: 60rem;
+  --line-length: 68rem;
 }
 
 [data-background-color="teal"] {
@@ -214,7 +218,7 @@ header {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 1rem;
   right: 1rem;
   font-family: 'Authentic Sans', sans-serif;
@@ -224,6 +228,89 @@ nav {
 
 nav > a {
   text-decoration: none;
+}
+
+#nav-texts-panel {
+  background: white;
+  width: var(--text-panel-width);
+  max-width: 80vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: calc(0px - var(--text-panel-width));
+  z-index: 99;
+  padding: 1.2rem;
+  box-sizing: border-box;
+  transition: right 0.2s ease;
+}
+
+#nav-texts-panel.active {
+  right: 0;
+}
+
+.panel-heading {
+  font-family: 'Director Mono', monospace;
+  font-size: 1.5rem;
+  margin: 3rem 0 3rem 5rem;
+}
+
+.panel-heading:first-child {
+  margin-top: 0;
+}
+
+.panel-close {
+  font-family: 'Authentic Sans', sans-serif;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+}
+
+.nav-contributor {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.nav-text {
+  font-size: 1.5rem;
+  font-family: 'Latitude', serif;
+  margin: 0 0 2rem 2.5rem;
+}
+
+.nav-texts-panel a {
+  text-decoration: none;
+}
+
+#about-panel {
+  background: white;
+  width: var(--about-panel-width);
+  max-width: 80vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: calc(0px - var(--about-panel-width));
+  z-index: 99;
+  padding: 1.2rem;
+  box-sizing: border-box;
+  transition: left ease 0.3s;
+  overflow-y: scroll;
+}
+
+#about-panel.active {
+  left: 0;
+}
+
+#about-panel ul {
+  column-count: 2;
+}
+
+#about-panel li {
+  list-style-type: none;
+  font-family: 'Authentic Sans', sans-serif;
+}
+
+#about-panel h4 {
+  margin: 1rem 0 1rem 5rem;
 }
 
 .title {
@@ -350,7 +437,7 @@ p+p {
   text-indent: 3em;
 }
 
-p > em {
+em {
   font-family: inherit;
 }
 
@@ -433,9 +520,14 @@ a:focus {
   display: block;
 }
 
+.artists > a {
+  text-decoration: none;
+}
+
 main {
   margin-bottom: 12rem;
-  max-width: 52rem;
+  /* max-width: 52rem; */
+
 }
 
 .work-title {
@@ -451,38 +543,55 @@ main {
   margin-bottom: 4rem;
 }
 
+.work-body > p {
+  max-width: var(--line-length);
+}
+
 .work-intro {
   font-size: 1.2rem;
   margin-bottom: 5rem;
+  max-width: var(--line-length);
 }
 
 .work-bio {
   font-family: 'Authentic Sans', sans-serif;
   font-size: 1.25rem;
   margin-bottom: 5rem;
+  max-width: var(--line-length);
 }
 
 blockquote {
   font-family: 'Director Mono', monospace;
   text-align: center;
-  transform: translateX(6em);
-  margin: 2em;
+  margin: 2em 10%;
 }
 
 figure {
-  width: 100%;
-  margin: 2rem;
-  transform: translateX(6em);
+  width: fit-content;
+  max-width: 68vw;
+  max-height: 80vh;
+  margin: 3rem auto 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about > figure {
+  max-width: 100%;
 }
 
 figure > img {
-  max-width: 100%;
+  /* width: 100%; */
+  max-width: inherit;
+  max-height: inherit;
+  margin: 0 auto;
 }
 
 figcaption {
   font-family: 'Director Mono', monospace;
   font-size: 0.9rem;
   text-align: left;
+  margin-top: 1rem;
 }
 
 ol {
@@ -493,6 +602,34 @@ ol {
 .notes li {
   font-size: 0.9rem;
 }
+
+table, tbody tr, td {
+  font-family: 'Latitude', serif;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+table {
+  margin: 3rem 0;
+  max-width: var(--line-length);
+}
+
+td {
+  vertical-align: baseline;
+  padding-bottom: 1.8rem;
+  width: 15%;
+  min-width: 10rem;
+}
+
+td:first-child {
+  width: 15%;
+}
+
+td:last-child {
+  width: 60%;
+}
+
+
 
 @media only screen and (max-width: 1400px){
   :root {
@@ -519,14 +656,21 @@ ol {
     padding: 0;
     z-index: -200;
   }
-  blockquote, figure {
-    transform: translateX(0);
-    padding-left: 5rem;
-  }
+
 }
 
 @media only screen and (max-width: 700px){
   .event-row {
     grid-template-columns: 1fr;
+  }
+  .title {
+    margin-top: 3rem;
+  }
+  :root {
+    --text-panel-width: 100vw;
+    --about-panel-width: 100vw;
+  }
+  #nav-texts-panel, #about-panel {
+    max-width: none;
   }
 }

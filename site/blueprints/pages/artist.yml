@@ -4,18 +4,58 @@ columns:
 
   left:
     width: 2/3
-    sections:
-      fields:
-        fields:
-          text:
-            type: blocks
+    fields:
+      project:
+        type: textarea
+        label: Project Name
+      intro:
+        type: textarea
+        label: Intro Paragraph
+      body:
+        type: blocks
+        label: Body Content
+        fieldsets:
+          - text
+          - heading
+          - quote
+          - image
+          - video
+          - line
+          - table
+      notes:
+        type: list
+        label: Footnotes/References
 
   right:
     width: 1/3
     fields:
-      files:
+      color:
+        type: select
+        label: Page background color
+        options:
+          teal: Teal
+          grey: Grey
+          green: Green
+          pink: Pink
+          orange: Orange
+          blue: Blue
+          yellow: Yellow
+          tealtint: Light Teal
+          greytint: Light Grey
+          greentint: Light Green
+          pinktint: Light Pink
+          orangetint: Light Orange
+          bluetint: Light Blue
+          yellowtint: Light Yellow
+      images:
         type: files
-      pattern:
-        type: multiselect
-        options: query
-        query: page.images
+        label: Images
+        uploads:
+          template: image
+      info:
+        type: info
+        label: Guide
+        text: |
+          For pull quotes, use the ‘Quote’ block (leave the quote attribution line blank)
+
+          When including footnotes, the list type can be set to ‘numbered’.

@@ -15,7 +15,7 @@ const position4 = { x: 0, y: 0 }
 interact('#tri-1').draggable({
   listeners: {
     start (event) {
-      console.log(event.type, event.target)
+      // console.log(event.type, event.target)
     },
     move (event) {
       position1.x += event.dx
@@ -30,7 +30,7 @@ interact('#tri-1').draggable({
 interact('#tri-2').draggable({
   listeners: {
     start (event) {
-      console.log(event.type, event.target)
+      // console.log(event.type, event.target)
     },
     move (event) {
       position2.x += event.dx
@@ -45,7 +45,7 @@ interact('#tri-2').draggable({
 interact('#tri-3').draggable({
   listeners: {
     start (event) {
-      console.log(event.type, event.target)
+      // console.log(event.type, event.target)
     },
     move (event) {
       position3.x += event.dx
@@ -60,7 +60,7 @@ interact('#tri-3').draggable({
 interact('#tri-4').draggable({
   listeners: {
     start (event) {
-      console.log(event.type, event.target)
+      // console.log(event.type, event.target)
     },
     move (event) {
       position4.x += event.dx

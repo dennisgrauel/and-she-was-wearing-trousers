@@ -2,13 +2,35 @@ Title: Sethembile Msezane
 
 ----
 
+Project: *ISIMO* (2020)
+
+----
+
+Intro: 
+
+----
+
+Body: 
+
+----
+
+Notes: 
+
+----
+
+Color: 
+
+----
+
+Images: 
+
+----
+
 Text: 
 
 ----
 
-Files:
-
-- sethembile-msezane-2.svg
+Files: - sethembile-msezane-2.svg
 
 ----
 

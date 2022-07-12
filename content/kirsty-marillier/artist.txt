@@ -2,13 +2,31 @@ Title: Kirsty Marillier
 
 ----
 
+Intro: 
+
+----
+
+Body: 
+
+----
+
+Notes: 
+
+----
+
+Color: yellow
+
+----
+
+Images: 
+
+----
+
 Text: 
 
 ----
 
-Files:
-
-- kirsty-marillier-3.svg
+Files: - kirsty-marillier-3.svg
 
 ----
 

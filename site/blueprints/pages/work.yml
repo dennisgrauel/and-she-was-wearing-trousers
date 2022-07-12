@@ -13,6 +13,14 @@ columns:
       body:
         type: blocks
         label: Body Content
+        fieldsets:
+          - text
+          - heading
+          - quote
+          - image
+          - video
+          - line
+          - table
       notes:
         type: list
         label: Footnotes/References

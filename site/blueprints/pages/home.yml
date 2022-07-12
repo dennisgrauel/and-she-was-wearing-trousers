@@ -21,6 +21,17 @@ columns:
             type: blocks
             fieldsets:
               - text
+              - image
+          aboutlimit:
+            type: number
+            label: Paragraphs of About text included on landing page
+          contributors:
+            type: blocks
+            fieldsets:
+              - text
+              - heading
+              - image
+              - list
           byline:
             type: textarea
           footer:
@@ -31,3 +42,8 @@ columns:
       logos:
         type: files
         label: files
+      info:
+        type: info
+        label: Guide
+        text: |
+          In the About panel, List blocks in the Contributors section will be split into 2 columns.
