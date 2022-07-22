@@ -68,7 +68,11 @@
         <?php $events = $site->children()->listed() ?>
         <?php foreach ($events as $event): ?>
           <?php if ($event->intendedTemplate() == 'event'): ?>
-            <div class="event-row" id="<?= 'event-' . $event->slug() ?>">
+            <?php $isExpandable = 0; ?>
+            <?php if ($event->description()->isNotEmpty()): ?>
+              <?php $isExpandable = 1; ?>
+            <?php endif ?>
+            <div class="event-row" data-expandable="<?= $isExpandable ?>">
               <div class="event-item">
                 <?= $event->title() ?>
               </div>

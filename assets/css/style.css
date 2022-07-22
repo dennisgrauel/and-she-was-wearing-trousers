@@ -177,6 +177,7 @@ body.home {
   width: calc(100vw - 2rem);
   font-size: 1rem;
   padding: 0.6rem 1rem 1rem 1rem;
+  z-index: 99;
 }
 
 .timestamp {
@@ -497,7 +498,7 @@ a:focus {
   /* max-height: fit-content; */
 }
 
-.event-row::before {
+.event-row[data-expandable="1"]::before {
   content: '+';
   width: 2rem;
   font-family: 'Authentic Sans', sans-serif;
@@ -506,9 +507,11 @@ a:focus {
   left: 0;
 }
 
-.event-row.active::before {
+.event-row.active[data-expandable="1"]::before {
   content: '–';
 }
+
+
 
 .event-description {
   max-height: 0;
@@ -519,12 +522,12 @@ a:focus {
   font-family: 'Authentic Sans', sans;
   font-size: 1.3rem;
   opacity: 0;
-  transition: opacity 0.1s ease, max-height 0.2s ease;
+  transition: opacity 0.1s ease;
 }
 
 .event-row.active > .event-description {
   opacity: 1;
-  max-height: 100rem;
+  max-height: none;
 }
 
 .event-item {
