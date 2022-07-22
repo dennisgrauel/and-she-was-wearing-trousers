@@ -22,7 +22,7 @@ About: [{"content":{"text":"<p>Archives that speak of copper wire, liberation, t
 
 ----
 
-Aboutlimit: 1
+Aboutlimit: 2
 
 ----
 

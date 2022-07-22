@@ -68,7 +68,7 @@
         <?php $events = $site->children()->listed() ?>
         <?php foreach ($events as $event): ?>
           <?php if ($event->intendedTemplate() == 'event'): ?>
-            <div class="event-row">
+            <div class="event-row" id="<?= 'event-' . $event->slug() ?>">
               <div class="event-item">
                 <?= $event->title() ?>
               </div>
@@ -81,6 +81,11 @@
                   <a href="<?= $event->booking() ?>" target="_blank">Book Here</a>
                 <?php endif ?>
               </div>
+              <?php if ($event->description()->isNotEmpty()): ?>
+                <div class="event-description">
+                  <?= $event->description()->toBlocks() ?>
+                </div>
+              <?php endif ?>
 
             </div>
           <?php endif ?>
@@ -98,6 +103,7 @@
 
     <?= js('assets/js/patterns.js') ?>
     <?= js('assets/js/nav.js') ?>
+    <?= js('assets/js/events.js') ?>
 
   </body>
 </html>

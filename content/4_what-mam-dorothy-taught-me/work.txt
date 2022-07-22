@@ -22,7 +22,7 @@ Bio: [{"content":{"text":"<p>Santilla Chingaipe is an award-winning journalist, 
 
 ----
 
-Color: yellowtint
+Color: greentint
 
 ----
 
