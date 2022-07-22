@@ -2,7 +2,7 @@
 
   <?php if ($page->intro()->isNotEmpty()): ?>
     <div class="work-intro">
-      <?= $page->intro() ?>
+      <?= $page->intro()->kti() ?>
     </div>
   <?php endif ?>
 

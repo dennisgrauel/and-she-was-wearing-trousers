@@ -2,13 +2,35 @@ Title: blk banaana
 
 ----
 
+Project: 
+
+----
+
+Intro: Test paragraph goes *here*, with rich formatting including *italics*, **bold**, and (link: asdfasdf text: links)
+
+----
+
+Body: [{"content":{"text":"<p>lorum ipsum<\/p>"},"id":"d413da38-c487-41ea-9196-4f83e61ae00b","isHidden":false,"type":"text"},{"content":{"url":"https:\/\/www.youtube.com\/watch?v=RGRYb4UMrZU","caption":"test caption"},"id":"6d67b002-dcf8-4958-a757-a03650eda166","isHidden":false,"type":"video"}]
+
+----
+
+Notes: 
+
+----
+
+Color: 
+
+----
+
+Images: 
+
+----
+
 Text: 
 
 ----
 
-Files:
-
-- blk-banaana-2.svg
+Files: - blk-banaana-2.svg
 
 ----
 

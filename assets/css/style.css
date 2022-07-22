@@ -487,10 +487,13 @@ a:focus {
   border-top: 1px solid black;
   padding: 1rem 0 1rem 2rem;
   transition: all 0.2s ease;
+}
+
+.event-row[data-expandable="1"] {
   cursor: pointer;
 }
 
-.event-row:hover, .event-row:focus {
+.event-row[data-expandable="1"]:hover, .event-row:focus {
   background: rgba(255,255,255,0.1);
 }
 
@@ -637,6 +640,32 @@ figcaption {
   text-align: left;
   margin-top: 1rem;
 }
+
+.figure-video {
+  padding: 0;
+  width: inherit;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+
 
 ol {
   padding-left: 5rem;
