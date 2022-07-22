@@ -707,6 +707,7 @@ ol {
 
 .notes li {
   font-size: 0.9rem;
+  list-style-type: none;
 }
 
 table, tbody tr, td {

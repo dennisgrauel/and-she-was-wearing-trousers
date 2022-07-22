@@ -14,7 +14,7 @@ Body: [{"content":{"text":"<p>According to family lore, I met Dorothy Masuka whe
 
 ----
 
-Notes: 
+Notes: <ul><li>Example reference</li><li>Another credit</li><li>Some further info</li></ul>
 
 ----
 
