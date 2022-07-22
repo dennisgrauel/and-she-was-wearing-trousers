@@ -7,6 +7,14 @@
 }
 
 @font-face {
+  font-family: 'Director Mono';
+  src: url('../fonts/Director-Bold.woff2') format('woff2'),
+  url('../fonts/Director-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Latitude';
   src: url('../fonts/Latitude-Regular.woff2') format('woff2'),
   url('../fonts/Latitude-Regular.woff') format('woff');
@@ -19,6 +27,14 @@
   src: url('../fonts/AUTHENTICSans-90.woff2') format('woff2'),
   url('../fonts/AUTHENTICSans-90.woff') format('woff');
   font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Authentic Sans';
+  src: url('../fonts/AUTHENTICSans-130.woff2') format('woff2'),
+  url('../fonts/AUTHENTICSans-130.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -439,6 +455,10 @@ p+p {
 }
 
 em {
+  font-family: inherit;
+}
+
+strong {
   font-family: inherit;
 }
 
