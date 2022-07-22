@@ -22,6 +22,8 @@ columns:
           - video
           - line
           - table
+          - markdown
+          - break
       notes:
         type: list
         label: Footnotes/References

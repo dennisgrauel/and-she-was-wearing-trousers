@@ -605,6 +605,19 @@ main {
   font-size: 1.25rem;
   margin-bottom: 5rem;
   max-width: var(--line-length);
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  justify-content: start;
+}
+
+.work-bio > figure {
+  max-width: 15rem;
+  margin: 0;
+}
+
+.work-bio > p {
+  flex-grow: 1;
 }
 
 blockquote {

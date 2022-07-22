@@ -22,6 +22,7 @@ columns:
             fieldsets:
               - text
               - image
+              - break
           aboutlimit:
             type: number
             label: Paragraphs of About text included on landing page

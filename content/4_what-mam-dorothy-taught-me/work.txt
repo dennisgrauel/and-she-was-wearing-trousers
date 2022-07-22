@@ -18,7 +18,7 @@ Notes:
 
 ----
 
-Bio: [{"content":{"text":"<p>Santilla Chingaipe is an award-winning journalist, filmmaker and author based in Melbourne, whose work explores colonialism, slavery, and post-colonial migration in Australia.<\/p>"},"id":"7b3f62dd-8c6d-494b-8149-b79e33fc8c2f","isHidden":false,"type":"text"}]
+Bio: [{"content":{"location":"kirby","image":["screen-shot-2022-07-12-at-12.03.10-pm.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"84e642fb-6acb-46e9-bcd3-d02046c89e98","isHidden":false,"type":"image"},{"content":{"text":"<p>Santilla Chingaipe is an award-winning journalist, filmmaker and author based in Melbourne, whose work explores colonialism, slavery, and post-colonial migration in Australia.<\/p>"},"id":"7b3f62dd-8c6d-494b-8149-b79e33fc8c2f","isHidden":false,"type":"text"}]
 
 ----
 
