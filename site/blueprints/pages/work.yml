@@ -19,6 +19,7 @@ columns:
           - quote
           - image
           - video
+          - audio
           - line
           - table
           - markdown

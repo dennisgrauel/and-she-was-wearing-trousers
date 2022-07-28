@@ -703,7 +703,24 @@ iframe {
   border: 0;
 }
 
+/* AUDIO EMBED */
 
+audio {
+  width: 68vw;
+  max-width: inherit;
+  max-height: inherit;
+  margin: 0 auto;
+}
+
+.audio-container {
+  width: fit-content;
+  max-width: 68vw;
+  max-height: 80vh;
+  margin: 3rem auto 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 ol {
   padding-left: 5rem;
