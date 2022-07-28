@@ -27,6 +27,12 @@ columns:
       notes:
         type: list
         label: Footnotes/References
+      bio:
+        type: blocks
+        label: Contributor Bio
+        fieldsets:
+          - text
+          - image
 
   right:
     width: 1/3

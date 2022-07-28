@@ -14,4 +14,8 @@ Booking: https://example.com
 
 ----
 
+Linktext: 
+
+----
+
 Description: [{"content":{"text":"<p>Join co-curator Roberta Joy Rich in conversation with local and international artists Rara Zulu, Kirsty Marillier, Jabu Nadia Newman and blk banaana, reflecting and sharing about their creative process across shores. A curatorial theme within the exhibition, \u2018Call and Response\u2019 endeavours to engage in cross continent dialogues between African diaspora and African artists of the southern region. At the genesis of <em>And she was wearing trousers<\/em>, Roberta and co-curator Naomi Velaphi initiated research of southern African heroines and their legacies as a platform for inquiry into art making. African continent based artists, Jabu Nadia Newman and blk banaana respond to the works of Kirsty Marillier and Rara Zulu. <em>Call and Response: Dialogues and making across continents <\/em>delves deeper into process, relationships to heroines and the significance of connecting community across shores.<\/p>"},"id":"3973f698-6c65-488a-8da6-d52007ed402c","isHidden":false,"type":"text"}]

@@ -82,7 +82,8 @@
               </div>
               <div class="event-item">
                 <?php if ($event->booking()->isNotEmpty()): ?>
-                  <a href="<?= $event->booking() ?>" target="_blank">Book Here</a>
+                  <?php $linkText = ($event->linktext()->isNotEmpty()) ? ($event->linktext()) : ('Book Here') ?>
+                  <a href="<?= $event->booking() ?>" target="_blank"><?= $linkText ?></a>
                 <?php endif ?>
               </div>
               <?php if ($event->description()->isNotEmpty()): ?>

@@ -8,8 +8,11 @@ fields:
   venue:
     type: text
   booking:
-    label: Booking Link
+    label: Link URL
     type: url
+  linktext:
+    label: Text for Link
+    type: text
   description:
     type: blocks
     fieldsets:
