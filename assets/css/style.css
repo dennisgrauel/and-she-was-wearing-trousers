@@ -355,6 +355,7 @@ nav > a {
 
 .artists {
   margin-bottom: 3rem;
+  width: fit-content;
 }
 
 .pattern-container {
@@ -373,8 +374,9 @@ nav > a {
   user-select: none;
 }
 
-.triangle:hover svg {
-  fill: white;
+.triangle:hover {
+  opacity: 0.9;
+  filter: invert(100%)
 }
 
 #tri-1 {
