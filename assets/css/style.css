@@ -255,7 +255,7 @@ nav > a {
   position: fixed;
   top: 0;
   right: calc(0px - var(--text-panel-width));
-  z-index: 99;
+  z-index: 150;
   padding: 1.2rem;
   box-sizing: border-box;
   transition: right 0.2s ease;
@@ -306,7 +306,7 @@ nav > a {
   position: fixed;
   top: 0;
   left: calc(0px - var(--about-panel-width));
-  z-index: 99;
+  z-index: 150;
   padding: 1.2rem;
   box-sizing: border-box;
   transition: left ease 0.3s;
@@ -326,8 +326,14 @@ nav > a {
   font-family: 'Authentic Sans', sans-serif;
 }
 
-#about-panel h4 {
-  margin: 1rem 0 1rem 5rem;
+#about-panel h4,
+#about-panel h3,
+#about-panel h2 {
+  margin: 2rem 0 1rem 5rem;
+}
+
+#about-cont.hidden {
+  display: none;
 }
 
 .title {

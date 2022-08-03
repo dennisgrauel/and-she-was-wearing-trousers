@@ -54,7 +54,8 @@
       <?= page('Home')->about()->toBlocks()->limit($aboutlimit) ?>
 
       <?php $catalogue = $site->page('Home')->file('and-she-was-wearing-trousers-a-call-to-our-heroines-catalogue.pdf')->url() ?>
-      <a id="about-cont" href="javascript:void(0)">(More info)</a>
+      <?php $moreinfo = (page('Home')->moreinfo()->toBool() === true ? '' : 'hidden') ?>
+      <a class="<?= $moreinfo ?>" id="about-cont" href="javascript:void(0)">(More info)</a>
     </div>
     <br>
     <div class="about">
@@ -100,10 +101,9 @@
 
     <footer>
       <?= $site->page('Home')->footer()->kti() ?><br>
-      <?php $sponsors = page('Home')->files()->sorted()->limit(2) ?>
-      <?php foreach ($sponsors as $sponsor): ?>
-        <img class="sponsor-logo" src="<?= $sponsor->url() ?>" alt="">
-      <?php endforeach ?>
+      <img class="sponsor-logo" src="<?= page('Home')->file('aca_logo_horizontal_black_medi-543229c977efb.png')->url() ?>" alt="Australia Council for the Arts logo">
+      <img class="sponsor-logo" src="<?= page('Home')->file('creative-vic-black.svg')->url() ?>" alt="Creative Victoria logo">
+
     </footer>
 
     <?= js('assets/js/patterns.js') ?>

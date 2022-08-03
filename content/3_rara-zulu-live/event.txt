@@ -2,7 +2,7 @@ Title: Rara Zulu Live
 
 ----
 
-Time: [{"content":{"text":"<p>23 July, 7:30pm, AEST<\/p>"},"id":"f9ee956f-4440-4036-86e6-52b2d410d385","isHidden":false,"type":"text"}]
+Time: [{"content":{"text":"<p>23 July, 7:30pm, AEST<\/p>","size":""},"id":"f9ee956f-4440-4036-86e6-52b2d410d385","isHidden":false,"type":"text"}]
 
 ----
 
@@ -14,4 +14,8 @@ Booking:
 
 ----
 
-Description: 
+Linktext: 
+
+----
+
+Description: [{"content":{"text":"<p>Test description<\/p>","size":"default"},"id":"9f84e964-4d85-40d6-9348-268e788285a5","isHidden":false,"type":"text"}]

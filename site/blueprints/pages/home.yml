@@ -21,6 +21,7 @@ columns:
             type: blocks
             fieldsets:
               - text
+              - heading
               - image
               - video
               - audio
@@ -28,6 +29,10 @@ columns:
           aboutlimit:
             type: number
             label: Paragraphs of About text included on landing page
+          moreinfo:
+            type: toggle
+            label: Include ‘(More info)’ Link at about text cutoff?
+            default: true
           contributors:
             type: blocks
             fieldsets:
