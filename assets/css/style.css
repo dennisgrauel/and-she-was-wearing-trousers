@@ -639,18 +639,26 @@ main {
   margin-bottom: 5rem;
   max-width: var(--line-length);
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   align-items: start;
   justify-content: start;
+  flex-wrap: wrap;
 }
 
 .work-bio > figure {
-  max-width: 15rem;
+  flex-basis: 15%;
   margin: 0;
 }
 
+.work-bio > figure > img {
+  width: 20rem;
+}
+
 .work-bio > p {
+  /* flex-grow: 1; */
+  flex-basis: 60%;
   flex-grow: 1;
+  margin-bottom: 1rem;
 }
 
 blockquote {

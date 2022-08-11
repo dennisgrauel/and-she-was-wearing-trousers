@@ -25,10 +25,8 @@
   </div>
   <div class="about">
     <?= page('Home')->about()->toBlocks() ?>
+    <br>
     <?php if(page('Home')->contributors()->isNotEmpty()): ?>
-      <div class="panel-heading">
-        Contributors
-      </div>
       <?= page('Home')->contributors()->toBlocks() ?>
     <?php endif ?>
   </div>
