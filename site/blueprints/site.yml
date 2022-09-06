@@ -24,6 +24,7 @@ columns:
         type: pages
         headline: Artists – Published
         status: listed
+        sortable: true
         templates:
           - artist
         image:
