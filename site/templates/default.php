@@ -22,15 +22,13 @@
           <?= snippet('title') ?>
 
           <div class="artists">
-            <?php $artists = $site->children()->published() ?>
+            <?php $artists = $site->children()->filterBy('template', 'artist') ?>
 
             <?php foreach ($artists as $artist): ?>
-              <?php if ($artist->intendedTemplate() == 'artist'): ?>
-                <?php $url = ($artist->isListed()) ? $artist->url() : "javascript:void(0)" ?>
-                <a href="<?= $url ?>">
-                  <h2 class="artist"><?= $artist->title() ?></h2>
-                </a>
-              <?php endif ?>
+              <?php $url = ($artist->isListed()) ? $artist->url() : "javascript:void(0)" ?>
+              <a href="<?= $url ?>">
+                <h2 class="artist"><?= $artist->title() ?></h2>
+              </a>
             <?php endforeach ?>
           </div>
         </div>
