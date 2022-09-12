@@ -743,7 +743,11 @@ ol {
 
 }
 
-.notes li {
+.notes {
+  max-width: 44rem;
+}
+
+.notes ul > li {
   font-size: 0.9rem;
   list-style-type: none;
 }
